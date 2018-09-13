@@ -50,7 +50,7 @@ This guide walks through the installation of slurp-rtl_433 to send data to an In
 1. Place binarary file on the system and in the path.
     * Suggested location: /usr/bin/
 2. Create systemd service file.
-    * Example: [slurp-rtl_433.service](./install/systemd/system/slurp-rtl_433.service)
+    * Example: [slurp-rtl_433.service](./install/etc/systemd/system/slurp-rtl_433.service)
 3. Create logrotate configuration file.
     * Example: [slurp-rtl_433](./install/etc/logrotate/slurp-rtl_433)
 4. Edit the config file as needed.
