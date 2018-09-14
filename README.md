@@ -126,7 +126,8 @@ The following devices have definitions in slurp-rtl_433.
 |Elro|DB286A|Not supported. Waiting for elasticserach support.|
 ||||
 |ELV| WS 2000|Not supported. Does not appear to support JSON output from rtl_433.|
-
+||||
+|Fine Offset|WH24||
 
 # Footnotes
 |note|Info|
