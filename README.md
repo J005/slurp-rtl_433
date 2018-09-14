@@ -50,7 +50,7 @@ This guide walks through the installation of slurp-rtl_433 to send data to an In
 1. Place binarary file on the system and in the path.
     * Suggested location: /usr/bin/
 2. Create systemd service file.
-    * Example: [slurp-rtl_433.service](./install/systemd/system/slurp-rtl_433.service)
+    * Example: [slurp-rtl_433.service](./install/etc/systemd/system/slurp-rtl_433.service)
 3. Create logrotate configuration file.
     * Example: [slurp-rtl_433](./install/etc/logrotate/slurp-rtl_433)
 4. Edit the config file as needed.
@@ -126,7 +126,8 @@ The following devices have definitions in slurp-rtl_433.
 |Elro|DB286A|Not supported. Waiting for elasticserach support.|
 ||||
 |ELV| WS 2000|Not supported. Does not appear to support JSON output from rtl_433.|
-
+||||
+|Fine Offset|WH24||
 
 # Footnotes
 |note|Info|

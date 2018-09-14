@@ -145,6 +145,12 @@ func ParseDataPoint(d []byte) (DataPoint, error) {
 			return nil, err
 		}
 		return &a, nil
+	case FineOffsetWH24Name:
+		a := FineOffsetWH24DataPoint{}
+		if err = json.Unmarshal(d, &a); err != nil {
+			return nil, err
+		}
+		return &a, nil
 	}
 
 	return nil, fmt.Errorf("unknown model: %s", b.Model)
